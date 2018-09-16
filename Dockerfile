@@ -23,10 +23,9 @@ COPY run.sh /bin/run.sh
 RUN chmod +x /bin/run.sh
 COPY init.sh /bin/init.sh
 RUN chmod +x /bin/init.sh
+COPY crontab crontab
 COPY config.json.sample config.json.sample
 RUN rm -f /var/spool/cron/crontabs/root
-COPY crontab /var/spool/cron/crontabs/root
-COPY crontab crontab
 
 # run init
 CMD init.sh

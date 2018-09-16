@@ -1,3 +1,3 @@
-#Second		Minute		Hour	Day		Year	
-*	*	0/2	*	*	/bin/run.sh
+#Minute	Hours	Day	Month	Weekday	
+*	0/2	*	*	*	/bin/run.sh
 # Don't edit /bin/run.sh , timings can be edited just fine though.
