@@ -10,6 +10,7 @@ then
 			cp /app/config.json.sample /config/config.json.sample
 		fi
 	}
+
 else
 	echo "config.json found."
 fi
