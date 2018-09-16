@@ -1,0 +1,14 @@
+{
+  "apiKey": "dLP4XLYFm6MT_WdsxqPrHvmDF6Bv9H4TDVJ",
+  "secret": "Wdt1WKQ9kHWxg68zP7TZwn",
+  "domain": "durn.me",
+  "records": [
+    {"type": "A", "name": "@", "ttl": 3600},
+    {"type": "A", "name": "home", "ttl": 3600},
+    {"type": "A", "name": "random", "ttl": 3600},
+    {"type": "A", "name": "taskboard", "ttl": 3600},
+    {"type": "A", "name": "ombi", "ttl": 3600},
+    {"type": "A", "name": "radarr", "ttl": 3600},
+    {"type": "A", "name": "sonarr", "ttl": 3600}
+  ]
+}
