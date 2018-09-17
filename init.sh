@@ -8,6 +8,8 @@ then
 		then
 			echo "config.json.sample not found, copying to /config"
 			cp /app/config.json.sample /config/config.json.sample
+			echo "Quitting, please create proper config.json in app config and restart container."
+			quit 0
 		fi
 	}
 
